@@ -80,9 +80,8 @@ function display5day(data) {
 
 $(document).ready(function () {
     $(".saveBtn").on("click", function () {
-        var city = $(this).parent().attr("id")
-        var name = $(this).siblings(".btn").value()
-        localStorage.setItem(city, name)
+        localStorage.setItem(data)
+        console.log(localStorage);
     })
 
     $("#searchHistory .btn").val(localStorage.getItem("searchBtn"))
