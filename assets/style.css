@@ -35,7 +35,6 @@ h2 {
 .container3 {
     border: solid;
     border-color: darkgreen;
-    display: flex;
     flex-direction: row;
     margin-left: auto;
     float: top;
