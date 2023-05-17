@@ -35,12 +35,15 @@ h2 {
     border: solid;
     border-color: darkgreen;
     flex-direction: row;
+    padding: 50px;
     margin-left: auto;
     float: top;
 }
 
 .flexbox-container {
     display: flex;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .flexbox-item {
